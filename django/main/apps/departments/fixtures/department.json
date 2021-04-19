@@ -1,0 +1,11 @@
+[
+  {
+    "model": "departments.department",
+    "pk": 1,
+    "fields": {
+      "company": 1,
+      "code": "CDM",
+      "name": "TEST"
+    }
+  }
+]

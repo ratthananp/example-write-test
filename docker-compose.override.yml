@@ -1,0 +1,18 @@
+version: "2.4"
+
+services:
+  postgres:
+    environment:
+      - POSTGRES_DB=example-write-test_db
+      - POSTGRES_PASSWORD=postgres
+
+  django:
+    build:
+      context: ./django
+    ports:
+      - 8000:8000
+    volumes:
+      - ./django:/opt/app
+    command: tail -f /dev/null
+    env_file:
+      - .env

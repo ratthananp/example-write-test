@@ -1,0 +1,12 @@
+[
+  {
+    "model": "departments.company",
+    "pk": 1,
+    "fields": {
+      "name": "test co ltd",
+      "address": "thailand",
+      "tel": "02-111-1111",
+      "website": "https://www.test.com/"
+    }
+  }
+]
